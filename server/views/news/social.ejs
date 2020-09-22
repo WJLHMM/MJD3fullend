@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		    <meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>首页</title>
+			<base href="/news">
+			<%-include ../public/bootstrap_jquerycss.ejs%>
+			<%-include ../public/bootstrap_jqueryjs.ejs%>
+		</head>
+		<body>
+			<div class="container">
+				<h1 class="page-header text-center bg-primary"> 这里是社会<small>news </small></h1>
+				<ol class = "col-8 text-warning bg-success list-unstyled">
+					<%for(var i=0;i<list.length;i++){%>
+						<li class = "text-left"><%=list[i]%></li>
+					<%}%>	
+				</ol> 
+			</div>
+		</body>
+	</html>

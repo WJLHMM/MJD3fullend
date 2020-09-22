@@ -1,0 +1,190 @@
+
+.sellerinfowrap {
+	width:100%;
+	max-width: 1080px;
+	height: 158px;
+	background:#fff;
+	color: #262626;
+	padding:0 18px;
+    border-radius: 20px;
+    margin:10px auto 0px auto;
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -o-align-items: center;
+    align-items: center;
+   -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+}
+
+.sellernamewrap {
+	height: 40px;
+	width:100%;
+	max-width: 1080px;
+    margin-top: 10px;
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -o-align-items: center;
+    align-items: center;
+}
+
+.sellerlogo {
+    width: 40px;
+    height:40px;
+}
+
+.sellername {
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+.jd {
+    width: 60px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    border-radius: 1px;
+    margin-left: 6px;
+    font-size: 10px;
+    color: #fff;
+    background-image: -webkit-linear-gradient(136deg,#f24d0c,#f2270c 27%,#f2140c);
+    background-image: linear-gradient(-46deg,#f24d0c,#f2270c 27%,#f2140c);
+    border-radius: 2px;
+}
+.icons {
+	height: 36px;
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -o-align-items: center;
+    align-items: center;
+
+}
+
+.sellerdatawrap {
+	height:46px;
+	width:100%;
+    font-size: 12px;
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -o-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -o-justify-content: center;
+    justify-content: center;
+    margin-block-start:0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start:0;
+    li{
+        width:50%;
+        p{
+            display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+            display: -moz-box; /* 老版本语法: Firefox (buggy) */
+            display: -moz-flex; /* Firefox 18+ */  
+            display: -ms-flexbox; /* 混合版本语法: IE 10 */
+            display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+            display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            -o-align-items: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            -o-justify-content: center;
+            justify-content: center;
+            margin-top: 10px;
+
+        }
+
+    }
+}
+
+.fnname {
+    color:#999;
+}
+
+.productiondetail {
+    margin-top: 20px 0px;
+    width: 100%;
+    height: 50px;
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -o-align-items: center;
+    align-items: center;
+    li {
+
+        width: 50%;
+        display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+        display: -moz-box; /* 老版本语法: Firefox (buggy) */
+        display: -moz-flex; /* Firefox 18+ */  
+        display: -ms-flexbox; /* 混合版本语法: IE 10 */
+        display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+        display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        -o-align-items: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        -o-justify-content: center;
+        justify-content: center;
+        button {
+            width: 104px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 30px;
+            background:#fff;
+            color:#666;
+        }
+    }
+
+}

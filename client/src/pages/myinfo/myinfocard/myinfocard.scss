@@ -1,0 +1,153 @@
+.myinfocardwrap {
+    padding: 10px; 
+    width: 100%;
+    max-width: 1080px;
+    height:140px;
+    overflow: auto;
+    margin:0 auto;
+    .myinfocard {
+        position: relative;
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: column; 
+        background: linear-gradient(90deg,#eb3c3c,#ff7459);
+        border-radius: 10px;
+        color: #fff;
+        overflow: hidden;
+        padding: 10px;
+        .myaccountman {
+            display: flex;           
+            justify-content: flex-end; 
+            width: 100px;
+            height: 20px;
+            margin-left: 70%;
+            padding-right: 14px;
+            position: relative;
+            cursor: pointer;
+            color:#666;
+
+            span {
+                font-size: 12px;
+            }  
+            .quit{
+                top: 30px;
+                left:30%;
+                width: 26px;
+                height: 20px;
+                color: #666;
+                font-size: 12px;
+                position: absolute;
+            }     
+        }
+        .myinfodetail {
+            width: 100%;
+            height: 80px;
+            margin-top: 10px;
+            padding-left: 16px;
+            display: flex;
+            align-items: flex-start; 
+            color: #fff;
+            .myavater {
+                width: 20%;
+                height: 100%;
+                .myavaterimg {
+                    width: 60px; 
+                    height: 60px;
+                    border-radius: 50%;
+                    border: 1px solid red;
+                    background: url('https://img11.360buyimg.com/jdphoto/s120x120_jfs/t21160/90/706848746/2813/d1060df5/5b163ef9N4a3d7aa6.png') no-repeat;
+                    background-size: contain;
+                }
+            }   
+        }
+        .mydetails {
+            height: 100%;
+            .mynickname {
+                font-size: 12px;
+                display: flex;
+                #icon {
+                    display: block;
+                    margin-left: 4px;
+                    font-size: 12px;
+                    border-radius: 12px;
+                }
+                #icon2 {
+                    margin-left: 4px;
+                    background:#c8483f;
+                    display: flex;
+                    align-item:center;
+                    justify-content:space-around;
+                    width: 50px;
+                    border-radius: 12px;
+                    #icon3 {
+                        display: block;
+                        color:#FFFF00;
+                    }
+                }
+                .mynicknamearea{
+                    margin-right: 4px;
+                    cursor: pointer;
+                }
+            }
+            .mylogname {
+                margin-top: 8px;
+                font-size: 12px;
+            }
+            .mycreditinfo {
+                margin-top: 8px;
+                display: flex;
+                button {
+                    display: block;
+                    height: 16px;
+                    font-size: 12px;
+                    padding: 0 6px;
+                    margin: 0;
+                    line-height: 16px;
+                    color: #fff;
+                    background: #c8483f;
+                    border-radius: 8px;
+                    border:none;
+                    padding: 0 10x;
+                }
+            }
+
+        }
+
+    }
+
+    .myinfo_concession_card {
+        position: absolute;
+        background: #333;
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: flex-start;
+        top: 80px;
+        right: 0;
+        width: 110px;
+        height: 70px;
+        padding: 4px;
+        border-radius: 6px;
+        transform: rotate(11deg) translateY(0);
+        .plus {
+            width: 70%;
+            height: 16px;
+            color: #c6934d;
+            background: url('https://img11.360buyimg.com/jdphoto/s100x18_jfs/t20647/287/1260001649/632/de55fa7f/5b235f3cNbe6fe972.png');
+             background-size: contain;
+        }
+        .yearcard {
+            margin-top: 4px;
+            color: #c6934d;
+            padding: 0 6px;
+            margin: 0;
+            height: 16px;
+            text-align: left;
+            background: #000;
+            border-radius: 8px;
+            font-size: 10px;
+
+        }
+    }  
+}

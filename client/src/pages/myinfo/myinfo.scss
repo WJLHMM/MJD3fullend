@@ -1,0 +1,17 @@
+
+.myinfolist {
+	width: 100%; 
+	margin-top: 50px;
+	display: flex;
+	flex-direction:column;    
+	align-items: center; 
+}
+ 
+.myinfoothers {
+	flex-wrap: wrap;
+	height: 200px;
+	.myinfopurchasingitem {
+		width: 20%;
+		flex: none;
+	}
+}

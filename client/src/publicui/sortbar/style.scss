@@ -1,0 +1,32 @@
+.sortbaruiwrap {
+	width:100%;
+	height:45px;
+    max-width:1080px;
+	background:#fff;
+    margin:0 auto;
+}
+
+.sortkeyword {
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -webkit-justify-content:space-around;
+    -ms-flex-pack:center;
+    -o-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -o-align-items: center;
+    align-items: center;
+    width:100%;
+	height:45px;
+}
+
+.keyword {
+    font-size: 14px;
+}

@@ -1,0 +1,58 @@
+.productioninfowrap {
+	width:24rem !important;
+    height:24rem !important;
+    max-width:640px;
+    height:auto !important;
+    margin:0 auto;
+    position:relative;
+    background:#f2f2f2;
+    overflow: hidden;
+}
+
+#iconarrowleftcopystyle {
+    display:block;
+    width:30px;
+    height:30px;
+    position:absolute;
+    border-radius:30px;
+    background:rgba(0,0,0,0.6);
+    top:4px;
+    left:4px;
+    z-index:100;
+    color:#fff;
+    font-size:20px;
+    line-height:30px;
+    text-align:center;
+
+}
+
+#icondeng {
+	display:block;
+    width:30px;
+    height:30px;
+    position:absolute;
+    border-radius:30px;
+    background:rgba(0,0,0,0.6);
+    top:4px;
+    z-index:100;
+    color:#fff;
+    font-size:28px;
+    right:4px;
+     line-height:30px;
+    text-align:center;
+}
+
+
+
+.viewallcomment {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border:1px solid #f2f2f2;
+    border-radius: 15px;
+    margin:0 auto;
+    background:#fff;
+    font-size: 14px;
+
+}

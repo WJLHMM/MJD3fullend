@@ -1,0 +1,148 @@
+
+.commentuiwrap {
+	width:100%;
+	max-width: 1080px;
+	height: auto;
+	background:#fff;
+	color: #262626;
+	padding:0 18px 20px 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin:10px auto 0px auto;
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -o-align-items: center;
+    align-items: center;
+   -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.pricewrap {
+	height: 36px;
+	width:100%;
+	max-width: 1080px;
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -o-align-items: center;
+    align-items: center;
+   -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.price {
+    font-family: JDZH-Regular;
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    i {
+        color:#e4393c;
+        font-weight: 900;
+    }
+    .pricedecimals {
+        font-size: 12px;
+    }
+  
+}
+
+.icons {
+	height: 36px;
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -o-align-items: center;
+    align-items: center;
+
+}
+
+.reductioninfo,.favour {
+	height: 100%;
+	width:90px;
+    color:#8c8c8c;
+    font-size: 12px;
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -o-align-items: center;
+    align-items: center;
+    p {
+        margin-right: 4px
+    }
+}
+
+.productiondetail {
+	height: 40px;
+    line-height: 20px;
+    font-size: 12px;
+    color:#8c8c8c;
+    width: 100%;
+    margin-bottom: 20px;
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+   
+    p {
+        margin-right: 12px;
+        margin-bottom: 12px;
+        background: #fcedeb;
+        border-radius: 15px;
+        height:30px;
+        width: 100px;
+        line-height: 30px;
+        text-align: center;
+
+    }
+}
+
+.itemdetail {
+	height: 48px;
+	padding-top:16px;
+	line-height: 1.3;
+    font-size: 12px;
+}

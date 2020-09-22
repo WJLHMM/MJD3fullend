@@ -1,0 +1,71 @@
+.discountwrap {
+	position:relative;
+	width: 100%;
+	margin:0px auto 0px auto;
+	padding:10px 0px 10px 10px;
+    background:#fafafa;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+	-webkit-box-lines: multiple;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	div {
+		width:auto;
+		padding-bottom: 4px;
+		span {
+			font-size: 12px;
+			color:#8c8c8c;
+			margin-right: 10px;
+		}
+		i {
+			font-size: 12px;
+			color:#e4393c;
+			margin-right: 5px;
+		}
+		
+
+	}
+
+}
+
+.discountlogo {
+	position:absolute;
+	display: block;
+	top:18px;
+	left:9px;
+	font-weight: bold;
+	font-size:14px;
+
+}
+
+#icondeng {
+	position:absolute;
+	display: block;
+	top:18px;
+	right:9px;
+	font-weight: bold;
+}
+
+.desc1 {
+	color:#333;
+	font-size: 12px;
+}
+
+.servce {
+	color:#8c8c8c;
+	font-size: 12px;
+}
+
+#icondeng2 {
+	color:#000;
+	font-size: 14px;
+}
