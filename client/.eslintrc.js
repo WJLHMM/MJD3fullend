@@ -3,27 +3,21 @@ module.exports = {
     browser: true,
     es2020: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-  ],
+  extends: ["plugin:react/recommended", "airbnb"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
     ecmaVersion: 11,
-    sourceType: 'module',
+    sourceType: "module",
   },
   parser: "babel-eslint",
-  plugins: [
-    'react',
-    "react-hooks",
-    "emotion",
-  ],
+  plugins: ["react", "react-hooks", "emotion"],
   settings: {
-    'import/resolver': { // 该设置解决eslint报错，无法识别webpack中配置的别名路径@
+    "import/resolver": {
+      // 该设置解决eslint报错，无法识别webpack中配置的别名路径@
       webpack: {
-        config: './webpack.base.config.js',
+        config: "./webpack.base.config.js",
       },
     },
   },
@@ -52,11 +46,11 @@ module.exports = {
     "jsx-a11y/interactive-supports-focus": 0,
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-static-element-interactions": 0,
-    "jsx-a11y/label-has-associated-control":0,
+    "jsx-a11y/label-has-associated-control": 0,
     "jsx-a11y/no-noninteractive-element-interactions": 0,
     "no-tabs": 0,
     "no-unused-vars": 0,
-    "no-unused-expressions":0,
+    "no-unused-expressions": 0,
     "no-trailing-spaces": 1,
     "no-multi-spaces": "off",
     "no-irregular-whitespace": 0,
@@ -66,5 +60,6 @@ module.exports = {
     "spaced-comment": 0,
     "emotion/jsx-import": 1,
     "no-console": 0,
+    "linebreak-style": ["error", "windows"], // 声明这是windows操作系统即可。
   },
 };
